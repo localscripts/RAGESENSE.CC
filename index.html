@@ -1,30 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Character Encoding -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta http-equiv="refresh" content="0; url=https://fatality.win/resources/ragesense-cc-no-vac-premier-semi-rage.7174/">
+    <meta http-equiv="refresh" content="50; url=https://fatality.win/resources/ragesense-cc-no-vac-premier-semi-rage.7174/">
+    
     <title>RAGESENSE.CC</title>
-
-    <!-- Favicon -->
     <link rel="shortcut icon" href="./assets/globe.ico" type="image/x-icon">
-
-    <!-- Font Links -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,799;1,799&display=swap" rel="stylesheet">
-
-    <!-- CSS Styles -->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
 
-    <!-- Meta Tags -->
     <meta name="title" content="RAGESENSE.CC | Ready to Semi-Rage?">
     <meta name="description" content="RAGESENSE.CC - The semi-rage solution for the price.">
-
-    <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="RAGESENSE.CC | Ready to Semi-Rage?">
     <meta property="og:description" content="RAGESENSE.CC - The semi-rage solution for the price.">
     <meta property="og:type" content="website">
@@ -32,16 +23,63 @@
     <meta property="og:image" content="https://github.com/localscripts/RAGESENSE.CC/blob/main/assets/banner-embed.png?raw=true">
     <meta property="og:image:width" content="1920">
     <meta property="og:image:height" content="1080">
+    <meta name="theme-color" content="#B9312F">
 
-    <!-- Theme Color -->
-    <meta name="theme-color" content="#008CFF">
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-grow: 1;
+            min-height: 100vh;
+            background: #121212 url('assets/pattern.png') repeat;
+            margin: 0;
+            padding: 0;
+        }
 
-    <!-- Scripts -->
+        .josefin-sans-unique {
+            font-family: "Josefin Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 48px;
+            color: #B9312F;
+            animation: fadeInBounce 2s ease-in-out, pulseGlow 2s infinite alternate;
+        }
+        .josefin-sans-unique span {
+            color: rgb(255, 255, 255);
+        }
 
-    </script>
+        @keyframes fadeInBounce {
+            0% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            50% {
+                opacity: 1;
+                transform: translateY(5px);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes pulseGlow {
+            0% {
+                text-shadow: 0 0 10px rgba(255, 0, 0, 0.6);
+            }
+            100% {
+                text-shadow: 0 0 20px rgba(255, 0, 0, 1);
+            }
+        }
+    </style>
 </head>
-
-
-
-<html lang="en">
+<body>
+    <div class="josefin-sans-unique">RAGE<span>sense</span>.cc</div>
+    <script>
+        setTimeout(function() {
+            window.location.href = "https://fatality.win/resources/ragesense-cc-no-vac-premier-semi-rage.7174/";
+        }, 5000); // 5 seconds
+    </script>
+</body>
 </html>
